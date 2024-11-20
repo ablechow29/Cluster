@@ -8,6 +8,6 @@
 #SBATCH -A coa_cli242_uksr          # Project allocation account name (REQUIRED)
 
 
-singularity run --app prefetch SRR11180057.sra
+singularity run --app prefetch SRR11180057 -O /home/ach399/SRA
 # singularity run --app prefetch --option-file fetched.txt
 
